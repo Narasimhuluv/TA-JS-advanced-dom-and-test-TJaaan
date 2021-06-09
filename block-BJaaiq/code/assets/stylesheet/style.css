@@ -134,6 +134,15 @@ table {
   width: fit-content;
   padding: 2rem 0;
   position: relative;
+  animation: scrolling 0.5s linear;
+}
+@keyframes scrolling {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 100%;
+  }
 }
 h2 {
   font-size: 1.8rem;
@@ -146,9 +155,10 @@ span {
 .infinity_list {
   width: 50%;
   height: 70vh;
-  border: 10px solid rgb(179, 128, 128);
+  border: 20px solid rgb(179, 128, 128);
   overflow: auto;
   margin: 50px auto;
+  border-radius: 0.5rem;
   padding: 2rem;
 }
 h1 {

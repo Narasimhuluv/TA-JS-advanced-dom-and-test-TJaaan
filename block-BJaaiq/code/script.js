@@ -1,4 +1,5 @@
 let listElm = document.querySelector(".infinity_list");
+alert("The Dom Content Loading");
 function loadMore() {
   quotes.forEach((elem) => {
     let parentDiv = document.createElement("div");
