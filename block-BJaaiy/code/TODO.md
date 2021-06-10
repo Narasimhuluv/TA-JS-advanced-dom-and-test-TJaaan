@@ -54,4 +54,4 @@ Find the difference between the following 2 dates:
 
 #### Use lodash to do the following things:
 
-- Use five methods form the list of Array methods and five from Collection methods (Left side on this link https://lodash.com/docs/4.17.15)
+- Use five methods form the list of Array methods and five from Collection methods (Leftt side on this link https://lodash.com/docs/4.17.15)
