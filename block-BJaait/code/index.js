@@ -14,6 +14,7 @@ function createUI(title) {
   li.innerText = title;
   li.style.fontSize = "1.5rem";
   let p = document.createElement("p");
+  p.classList.add("dragMe");
   p.innerText = "Drag Me";
   p.style.color = "green";
   p.style.fontSize = "0.8rem";
