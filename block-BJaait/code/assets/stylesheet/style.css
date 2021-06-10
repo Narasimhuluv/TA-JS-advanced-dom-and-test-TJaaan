@@ -167,6 +167,7 @@ input::placeholder {
 h1 {
   font-size: 2rem;
   margin-top: 2rem;
+  font-weight: 900;
 }
 .container {
   width: 30%;
