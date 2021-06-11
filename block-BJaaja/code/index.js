@@ -91,6 +91,7 @@ function createCat(location, numberOfLegs, name, colorOfEyes) {
 
 let catsMethods = {
   meow() {
+    // eslint-disable-next-line no-alert
     alert(`I am ${this.name} and I can do mewo meow 😹`);
   },
   changeName(name) {
